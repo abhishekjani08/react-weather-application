@@ -1,0 +1,13 @@
+.inputData{
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    width: 160px;
+   height: 280px;
+  border: 2px solid red;
+ border-radius: 10px;
+}
