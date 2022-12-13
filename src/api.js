@@ -1,4 +1,4 @@
-export const apioptions = {
+export const apiOptions = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '4fcebe3237msh1d91e4981880439p17b143jsn370274fabdb7',
@@ -6,4 +6,4 @@ export const apioptions = {
 	}
 };
 
-export const Geo_api_link="https://wft-geo-db.p.rapidapi.com/v1/geo/cities";
+export const GEO_API_LINK="https://wft-geo-db.p.rapidapi.com/v1/geo/cities";

@@ -8,8 +8,8 @@ const handleOnSearchChange=(searchData)=>{
 }
 
   return (
-    <div className="App">
-      <Search OnSearchChange={handleOnSearchChange}/>
+    <div className="container">
+      <Search onSearchChange={handleOnSearchChange}/>
     </div>
   );
 }
