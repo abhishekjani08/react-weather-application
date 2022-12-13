@@ -11,7 +11,7 @@ const handleOnSearchChange=(searchData)=>{
     <div className="container">
       <Search onSearchChange={handleOnSearchChange}/>
     </div>
-  );
+  )
 }
 
 export default App;
