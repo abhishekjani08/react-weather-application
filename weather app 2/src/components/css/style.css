@@ -1,13 +1,21 @@
 .inputData{
+    text-align: center;  
+    margin-top: 20px
 }
 
+.inputfield{
+    width: 250px;
+    height: 30px;
+}
 .box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 30%;
     background-color: dodgerblue;
-    width: 160px;
-   height: 280px;
-  border: 2px solid red;
- border-radius: 10px;
+   height: 350px;
+  border: 4px solid rgb(17, 16, 16);
+  box-shadow: 0 0 20px 5px #ffffff;
+  border-radius: 10px;
 }

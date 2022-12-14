@@ -13,6 +13,12 @@ const Weatherapp = () => {
                     }}
                     />
                 </div>
+
+                <div className="info">
+                    <div className="location">
+                        
+                    </div>
+                </div>
             </div>
         </>
     )
