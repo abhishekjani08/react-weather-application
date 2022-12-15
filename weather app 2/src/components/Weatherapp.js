@@ -16,7 +16,7 @@ const Weatherapp = () => {
 
                 <div className="info">
                     <div className="location">
-                        
+                        helllo
                     </div>
                 </div>
             </div>
