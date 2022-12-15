@@ -1,6 +1,10 @@
 import React from "react";
 import "./css/style.css";
+import { useState } from "react";
 const Weatherapp = () => {
+
+    const [city,setCity]=useState("Mumbai");
+
     return (
         <>
             <div className="box">
@@ -19,7 +23,7 @@ const Weatherapp = () => {
 
                 <div className="info">
                     <div className="location">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>  Mumbai
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>  {city}
                     </div>
                     <div className="temp">
                         15deg
@@ -28,6 +32,8 @@ const Weatherapp = () => {
                         15min-20max
                     </div>
                 </div>
+
+
 {/* 
                     <ul class="circles">
                         <li></li>
