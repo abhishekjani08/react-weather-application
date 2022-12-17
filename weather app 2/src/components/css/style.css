@@ -4,9 +4,11 @@
 }
 
 .inputfield {
-  width: 250px;
+  width: 70%;
   height: 30px;
   border-radius: 8px;
+  overflow: hidden; 
+  padding-right: .5em;
 
 }
 
@@ -66,7 +68,27 @@
   font-size: larger;
 }
 
+.nocity{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+}
 
+.footer{
+  color: white;
+  background-Color: DodgerBlue;
+  padding: 10px;
+  font-Family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 /* 
 .circles{
   position: absolute;
@@ -160,3 +182,19 @@
   }
 
 } */
+
+
+                /* 
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul> */
+
