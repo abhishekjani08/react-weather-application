@@ -79,14 +79,14 @@
 .footer{
   color: white;
   background-Color: DodgerBlue;
-  padding: 10px;
+  padding: 8px;
   font-Family: Montserrat;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: -15px;
   width: 100%;
 }
 /* 
